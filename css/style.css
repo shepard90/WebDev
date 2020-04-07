@@ -1,0 +1,247 @@
+.whiteSection {
+  height: 800px;
+  background-color: #fff;
+}
+.coloredSection{
+  height: 800px;
+  background-color: #FBB116;
+  z-index: 100;
+}
+/* Panel Menu ========================*/
+.ramkaMenu {
+  display: none;
+  height: 55px;
+  width: 370px;
+  border-radius: 40px;
+  position: fixed;
+  top: 75px;
+  right: -30px;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 10;
+}
+.panel {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 350px;
+  right: 0;
+  display: none;
+  color: #fff;
+	z-index: 1000;
+}
+
+.panel ul {
+	position: relative;
+  text-align: center;
+  list-style: none;
+  line-height: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.panel li {
+	position: relative;
+  font-size: 1.5rem;
+}
+
+.panel li a {
+	position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+.panel li a:hover {
+  text-decoration: underline;
+}
+/*-------------------------*/
+/* Hamburger - menu =====================*/
+.clickme {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 180px;
+  top: 80px;
+  animation: najazdMenu 2s ease-in-out;
+  z-index: 11;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 40px;
+  height: 5px;
+  background-color: #FBB116;
+	border-radius: 3px;
+  margin: 7px 0;
+  transition: 0.4s;
+}
+
+.menuText {
+	position: absolute;
+	right: 70px;
+	font-size: 30px;
+	top: -2px;
+	color: #FBB116;
+	font-family: 'Shadows Into Light';
+	font-weight: bolder;
+}
+
+.invisible .menuText {
+	display: none;
+}
+
+.change .bar1 {
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  background-color: #fff;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* ------------------ */
+
+/* Logo aktywnych maluchów */
+.logo {
+	top: 50px;
+	left: 180px;
+	position: relative;
+  animation: najazdLogo 3s ease-out;
+}
+/* ----------------- */
+
+/* piłkarzWallpaper */
+.soccer {
+	position: absolute;
+	opacity: 0.07;
+	left: 150px;
+}
+
+/* mainSection =========================== */
+.mainSection {
+	position: absolute;
+	top: 200px;
+}
+
+.intro {
+	text-align: center;
+}
+
+.mainText {
+  font-family: 'Caveat Brush', sans-serif;
+	padding-top: 70px;
+  margin-left: 260px;
+	position: relative;
+	font-size: 49px;
+  font-weight: 20;
+	line-height: 1.4;
+  animation: pop-up 4s, changeFontColor 3s infinite;
+	color: #FBB116;
+}
+
+.ramka {
+	width: 410px;
+	left: 30px;
+	position: relative;
+}
+
+.mySlides {
+  margin-left: 50px;
+  width: 420px;
+}
+
+.arrow {
+	position: absolute;
+	left: 90px;
+	bottom: 125px;
+	width: 80px;
+	animation: moveArrow 2s infinite;
+}
+
+/* =========================== */
+ @media screen and (max-width: 1000px){
+   .whiteSection {
+     height: 950px;
+     background-color: #fff;
+   }
+   .coloredSection{
+     height: 950px;
+     background-color: #FBB116;
+  }
+	 .mainSection{
+		 top: 200px;
+	 }
+	 .logo{
+		 left: 0;
+     animation: none;
+	 }
+	 .clickme{
+     top: 20px;
+		 right: 30px;
+     animation: none;
+	 }
+   .ramkaMenu{
+     top: 13px;
+     width: 210px
+   }
+	 .intro{
+     top: 40px;
+		 padding: 0px;
+		 left: 0px;
+	 }
+	 .soccer{
+		 top: 200px;
+		 width: 420px;
+		 left: 0;
+	 }
+	 .box{
+		 left: 0px;
+	 }
+	 .mainText{
+    margin: 0;
+	 	padding: 0px;
+		text-align: center;
+	 }
+	.arrow{
+		display: none;
+	}
+	.mySlides{
+		margin-top: 80px;
+		width: 400px;
+	}
+	body{
+		margin: 0px;
+		text-align: center;
+	}
+
+}
+
+@keyframes pop-up {
+ 	0%{transform: filter: blur(5px); opacity: 0;}
+ 	100%{transform: filter: blur(0); opacity: 1;}
+ }
+@keyframes moveArrow {
+	0%{transform: translateY(0);}
+	50%{transform: translateY(45px);}
+	100%{transform: translateY(0);}
+}
+@keyframes changeFontColor {
+  0%{color: #FBB116;}
+  50%{color: pink;}
+  100%{color: #FBB116;}
+}
+@keyframes najazdLogo {
+  0%{left: -500px;}
+  100%{left: 180px;}
+}
+@keyframes najazdMenu {
+  0%{top: -50px;}
+  100%{top: 80px;}
+}
+}
