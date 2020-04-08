@@ -152,7 +152,8 @@
 }
 
 .mySlides {
-  margin-left: 50px;
+  position: relative;
+  left: 80px;
   width: 420px;
 }
 
