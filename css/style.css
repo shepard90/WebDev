@@ -165,7 +165,7 @@
 }
 
 /* =========================== */
- @media screen and (max-width: 1000px){
+ @media only screen and (max-width: 1000px){
    .whiteSection {
      height: 950px;
      background-color: #fff;
@@ -174,7 +174,7 @@
    .coloredSection{
      height: 950px;
      background-color: #FBB116;
-     width: 100%;	   
+     width: 100%;
   }
 	 .mainSection{
 		 top: 200px;
@@ -199,11 +199,8 @@
 	 }
 	 .soccer{
 		 top: 200px;
-		 width: 420px;
+		 width: 100%;
 		 left: 0;
-	 }
-	 .box{
-		 left: 0px;
 	 }
 	 .mainText{
     margin: 0;
@@ -215,11 +212,12 @@
 	}
 	.mySlides{
 		margin-top: 80px;
-		width: 400px;
+		width: 100%;
 	}
 	body{
 		margin: 0px;
 		text-align: center;
+    width: 100%;
 	}
 
 }
