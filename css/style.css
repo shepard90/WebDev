@@ -169,59 +169,60 @@
 /* =========================== */
  @media only screen and (max-width: 1000px){
    .whiteSection {
-     height: 1000px;
+     height: 950px;
      background-color: #fff;
      width: 100%;
    }
-   .coloredSection{
+   .coloredSection {
      height: 950px;
      background-color: #FBB116;
      width: 100%;
   }
-	 .logo{
+	 .logo {
 		 left: 0;
      top: 80px;
      animation: none;
      width: 80%;
 	 }
-	 .clickme{
-     top: 32px;
+	 .clickme {
+     top: 42px;
 		 right: 30px;
      animation: none;
 	 }
-   .ramkaMenu{
-     top: 25px;
-     width: 50px;
+   .ramkaMenu {
+     top: 35px;
+     width: 200px;
      right: 0;
    }
-	 .intro{
+	 .intro {
      top: 40px;
 		 padding: 0px;
 		 left: 0px;
 	 }
-	 .soccer{
+	 .soccer {
 		 top: 80px;
 		 width: 100%;
 		 left: 0;
 	 }
-	 .mainText{
+	 .mainText {
     font-family: 'Caveat Brush', sans-serif;
+    font-size: 40px;
     margin: 0 auto;
-	 	padding: 0px;
+	 	padding: 5px;
 		text-align: center;
     width: 100%;
 	 }
-	.arrow{
+	.arrow {
 		display: none;
 	}
-	.mySlides{
+	.mySlides {
     left: 0;
     position: relative;
     top: 70px;
 		width: 90%;
     margin: 0 auto;
 	}
-	body{
+	body {
 		margin: 0px;
 		text-align: center;
 	}
