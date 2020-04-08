@@ -2,11 +2,13 @@
   height: 800px;
   background-color: #fff;
 }
-.coloredSection{
+
+.coloredSection {
   height: 800px;
   background-color: #FBB116;
   z-index: 100;
 }
+
 /* Panel Menu ========================*/
 .ramkaMenu {
   display: none;
@@ -20,6 +22,7 @@
   opacity: 0.5;
   z-index: 10;
 }
+
 .panel {
   background: rgba(0, 0, 0, 0.8);
   height: 100%;
@@ -29,11 +32,11 @@
   right: 0;
   display: none;
   color: #fff;
-	z-index: 1000;
+  z-index: 1000;
 }
 
 .panel ul {
-	position: relative;
+  position: relative;
   text-align: center;
   list-style: none;
   line-height: 2.5rem;
@@ -42,18 +45,20 @@
 }
 
 .panel li {
-	position: relative;
+  position: relative;
   font-size: 1.5rem;
 }
 
 .panel li a {
-	position: relative;
+  position: relative;
   color: #fff;
   text-decoration: none;
 }
+
 .panel li a:hover {
   text-decoration: underline;
 }
+
 /*-------------------------*/
 /* Hamburger - menu =====================*/
 .clickme {
@@ -70,23 +75,23 @@
   width: 40px;
   height: 5px;
   background-color: #FBB116;
-	border-radius: 3px;
+  border-radius: 3px;
   margin: 7px 0;
   transition: 0.4s;
 }
 
 .menuText {
-	position: absolute;
-	right: 70px;
-	font-size: 30px;
-	top: -2px;
-	color: #FBB116;
-	font-family: 'Shadows Into Light';
-	font-weight: bolder;
+  position: absolute;
+  right: 70px;
+  font-size: 30px;
+  top: -2px;
+  color: #FBB116;
+  font-family: 'Shadows Into Light';
+  font-weight: bolder;
 }
 
 .invisible .menuText {
-	display: none;
+  display: none;
 }
 
 .change .bar1 {
@@ -106,50 +111,43 @@
 }
 
 /* ------------------ */
-
 /* Logo aktywnych maluchów */
 .logo {
-	top: 50px;
-	left: 180px;
-	position: relative;
+  top: 50px;
+  left: 180px;
+  position: relative;
   animation: najazdLogo 3s ease-out;
 }
-/* ----------------- */
 
+/* ----------------- */
 /* piłkarzWallpaper */
 .soccer {
-	position: absolute;
-	opacity: 0.07;
-	left: 150px;
+  position: absolute;
+  opacity: 0.07;
+  left: 150px;
 }
 
 /* mainSection =========================== */
 .mainSection {
-	position: relative;
-	top: 120px;
+  position: relative;
+  top: 120px;
 }
 
 .intro {
-	text-align: center;
+  text-align: center;
   font-family: 'Caveat Brush', sans-serif;
 }
 
 .mainText {
   font-family: 'Caveat Brush', sans-serif;
-	padding-top: 70px;
+  padding-top: 70px;
   margin-left: 260px;
-	position: relative;
-	font-size: 49px;
-  font-weight: 20;
-	line-height: 1.4;
+  position: relative;
+  font-size: 49px;
+  font-weight: 100;
+  line-height: 1.4;
   animation: pop-up 4s, changeFontColor 3s infinite;
-	color: #FBB116;
-}
-
-.ramka {
-	width: 410px;
-	left: 30px;
-	position: relative;
+  color: #FBB116;
 }
 
 .mySlides {
@@ -159,96 +157,140 @@
 }
 
 .arrow {
-	position: absolute;
-	left: 90px;
-	bottom: 125px;
-	width: 80px;
-	animation: moveArrow 2s infinite;
+  position: absolute;
+  left: 90px;
+  bottom: 125px;
+  width: 80px;
+  animation: moveArrow 2s infinite;
 }
 
 /* =========================== */
- @media only screen and (max-width: 1000px){
-   .whiteSection {
-     height: 950px;
-     background-color: #fff;
-     width: 100%;
-   }
-   .coloredSection {
-     height: 950px;
-     background-color: #FBB116;
-     width: 100%;
+@media only screen and (max-width: 1000px) {
+  .whiteSection {
+    height: 950px;
+    background-color: #fff;
+    width: 100%;
   }
-	 .logo {
-		 left: 0;
-     top: 80px;
-     animation: none;
-     width: 80%;
-	 }
-	 .clickme {
-     top: 42px;
-		 right: 30px;
-     animation: none;
-	 }
-   .ramkaMenu {
-     top: 35px;
-     width: 200px;
-     right: 0;
-   }
-	 .intro {
-     top: 40px;
-		 padding: 0px;
-		 left: 0px;
-	 }
-	 .soccer {
-		 top: 80px;
-		 width: 100%;
-		 left: 0;
-	 }
-	 .mainText {
+
+  .coloredSection {
+    height: 950px;
+    background-color: #FBB116;
+    width: 100%;
+  }
+
+  .logo {
+    left: 0;
+    top: 80px;
+    animation: none;
+    width: 80%;
+  }
+
+  .clickme {
+    top: 42px;
+    right: 30px;
+    animation: none;
+  }
+
+  .ramkaMenu {
+    top: 35px;
+    width: 200px;
+    right: 0;
+  }
+
+  .intro {
+    top: 40px;
+    padding: 0;
+    left: 0;
+  }
+
+  .soccer {
+    top: 80px;
+    width: 100%;
+    left: 0;
+  }
+
+  .mainText {
     font-family: 'Caveat Brush', sans-serif;
     font-size: 40px;
     margin: 0 auto;
-	 	padding: 5px;
-		text-align: center;
-    width: 100%;
-	 }
-	.arrow {
-		display: none;
-	}
-	.mySlides {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .mySlides {
     left: 0;
     position: relative;
     top: 70px;
-		width: 90%;
+    width: 90%;
     margin: 0 auto;
-	}
-	body {
-		margin: 0px;
-		text-align: center;
-	}
+  }
 
+  body {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 @keyframes pop-up {
- 	0%{transform: filter: blur(5px); opacity: 0;}
- 	100%{transform: filter: blur(0); opacity: 1;}
- }
+  0% {
+    transform: filter blur(5px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: filter blur(0);
+    opacity: 1;
+  }
+}
+
 @keyframes moveArrow {
-	0%{transform: translateY(0);}
-	50%{transform: translateY(45px);}
-	100%{transform: translateY(0);}
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(45px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
+
 @keyframes changeFontColor {
-  0%{color: #FBB116;}
-  50%{color: pink;}
-  100%{color: #FBB116;}
+  0% {
+    color: #FBB116;
+  }
+
+  50% {
+    color: pink;
+  }
+
+  100% {
+    color: #FBB116;
+  }
 }
+
 @keyframes najazdLogo {
-  0%{left: -500px;}
-  100%{left: 180px;}
+  0% {
+    left: -500px;
+  }
+
+  100% {
+    left: 180px;
+  }
 }
+
 @keyframes najazdMenu {
-  0%{top: -50px;}
-  100%{top: 80px;}
-}
+  0% {
+    top: -50px;
+  }
+
+  100% {
+    top: 80px;
+  }
 }
