@@ -169,10 +169,12 @@
    .whiteSection {
      height: 950px;
      background-color: #fff;
+     width: 100%;
    }
    .coloredSection{
      height: 950px;
      background-color: #FBB116;
+     width: 100%;	   
   }
 	 .mainSection{
 		 top: 200px;
