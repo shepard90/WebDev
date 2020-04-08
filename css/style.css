@@ -180,7 +180,7 @@
 
   .logo {
     left: 0;
-    top: 80px;
+    top: 120px;
     animation: none;
     width: 80%;
   }
@@ -202,6 +202,7 @@
     padding: 0;
     left: 0;
     text-align: center;
+    width: 80%;
   }
 
   .soccer {
@@ -213,7 +214,7 @@
   .mainText {
     font-family: 'Caveat Brush', sans-serif;
     font-size: 40px;
-    margin: 0 10px;
+    margin: 0 auto;
     padding: 5px;
     text-align: center;
   }
