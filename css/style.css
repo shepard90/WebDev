@@ -201,8 +201,6 @@
     top: 40px;
     padding: 0;
     left: 0;
-    text-align: center;
-    width: 80%;
   }
 
   .soccer {
@@ -215,7 +213,7 @@
     font-family: 'Caveat Brush', sans-serif;
     font-size: 40px;
     margin: 0 auto;
-    padding: 5px;
+    width: 80%;
     text-align: center;
   }
 
