@@ -125,8 +125,8 @@
 
 /* mainSection =========================== */
 .mainSection {
-	position: absolute;
-	top: 200px;
+	position: relative;
+	top: 120px;
 }
 
 .intro {
@@ -176,12 +176,11 @@
      background-color: #FBB116;
      width: 100%;
   }
-	 .mainSection{
-		 top: 200px;
-	 }
 	 .logo{
 		 left: 0;
+     top: 80px;
      animation: none;
+     width: 80%;
 	 }
 	 .clickme{
      top: 20px;
@@ -198,26 +197,28 @@
 		 left: 0px;
 	 }
 	 .soccer{
-		 top: 200px;
+		 top: 80px;
 		 width: 100%;
 		 left: 0;
 	 }
 	 .mainText{
-    margin: 0;
+    margin: 0 auto;
 	 	padding: 0px;
 		text-align: center;
+    width: 90%;
 	 }
 	.arrow{
 		display: none;
 	}
 	.mySlides{
-		margin-top: 80px;
-		width: 100%;
+    position: relative;
+    top: 70px;
+		width: 90%;
+    margin: 0 auto;
 	}
 	body{
 		margin: 0px;
 		text-align: center;
-    width: 100%;
 	}
 
 }
