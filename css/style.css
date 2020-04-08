@@ -212,6 +212,7 @@
 		display: none;
 	}
 	.mySlides{
+    left: 0;
     position: relative;
     top: 70px;
 		width: 90%;
