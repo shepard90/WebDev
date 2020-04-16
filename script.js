@@ -16,6 +16,13 @@ $(document).ready(function() {
 	/*	$(".menuText").toggle(300); */
 	});
 
+// zanikanie menu po przesnięciu
+ $(".panel").bind('swiperight', swiper);
+
+ function swiper(event) {
+   $(this).hide();
+ };
+ 
   // Animacja i znikanie strzałki
     $(window).scroll(function() {
 			if($(window).width() >950){
