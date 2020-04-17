@@ -3,38 +3,28 @@ $(document).ready(function() {
 	// Wysuwany panel menu
   $(".clickme").click(function() {
 
-		$(".panel").toggle(300);
+		$(".panel").show(300);
   });
+  // /////////////////////////////////
 
-  //zanikanie menu
+  // ////////////////// zanikanie menu
 
 	$(".panel").mouseleave(function() {
-		$(".panel").toggle(300);
+		$(".panel").hide(300);
 		$(".clickme").removeClass("change");
 
 	});
 
-
-
-
-
-  // Animacja i znikanie strzałki
-    $(window).scroll(function() {
-			if($(window).width() >950){
-        if ($(this).scrollTop() < 300) {
-          $(".arrow").fadeIn(500);
-        } else {
-          $(".arrow").fadeOut(500);
-        }}
+  $('.panel').on('swiperight', function (e) {
+         $('.panel').hide(300);
+         $(".clickme").removeClass("change");
       });
 
-      $(window).scroll(function() {
-        if ($(this).scrollTop() > 50) {
-          $(".ramkaMenu").fadeIn(1500);
-        } else {
-          $(".ramkaMenu").fadeOut(1000);
-        }
-      });
+    $("[href]", ".panel").click(function() {
+      $(".panel").hide(300);
+  		$(".clickme").removeClass("change");
+    });
+// ///////////////// Koniec zanikania menu
 
       /* MainSection carousel */
       var myIndex = 0;
@@ -59,8 +49,47 @@ function myFunction(x) {
 	x.classList.toggle("change");
 }
 
-$(document).on('pageinit', function(){
-$('.panel').on('swiperight', function (e) {
-       $('.panel').toggle(300);
-     });
-    });
+// /////////////////przesuwanie do elemtnu ======================
+
+    function scroll(e) {
+
+    var href = $(this).attr('href');
+
+    e.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $(href).offset().top
+    }, 500);
+
+    location.hash = href;
+
+};
+
+$('a[href^="#"]').click(scroll);
+
+
+
+var timeout;
+
+$(window).scroll(function() {
+  clearTimeout(timeout);
+  timeout = setTimeout(function() {
+
+// Zanikanie strzłki ================
+  if($(window).width() >950){
+    if ($(this).scrollTop() < 300) {
+      $(".arrow").fadeIn(500);
+    } else {
+      $(".arrow").fadeOut(500);
+    }};
+
+// Zanikanie ramki menu ===============
+    if ($(window).scrollTop() < 50) {
+      $(".ramkaMenu").hide(500);
+    } else {
+      $(".ramkaMenu").show(700);
+    }
+  }, 1);
+  });
+
+// ///////////// Koniec przesuwania do elemtnu
