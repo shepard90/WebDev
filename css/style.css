@@ -46,10 +46,17 @@
 
 .panel li {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 25px;
+  width: 100%;
+
+
 }
 
 .panel li a {
+  display: block;
+  padding: 11px 0;
+  height: 70px;
+  align-items: center;
   position: relative;
   color: #fff;
   text-decoration: none;
@@ -57,6 +64,17 @@
 
 .panel li a:hover {
   text-decoration: underline;
+  width: 100%;
+
+  background: rgba(236,224,54,1);
+  background: -moz-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(236,224,54,1)), color-stop(100%, rgba(254,165,22,1)));
+  background: -webkit-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
+  background: -o-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
+  background: -ms-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
+  background: linear-gradient(to right, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece036', endColorstr='#fea516', GradientType=1 );
+
 }
 
 /*-------------------------*/
