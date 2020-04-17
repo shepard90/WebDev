@@ -4,7 +4,7 @@
 }
 
 #coloredSection {
-  height: 800px;
+  height: 700px;
   background-color: #FBB116;
   z-index: 100;
 }
@@ -178,6 +178,39 @@
   animation: moveArrow 2s infinite;
 }
 
+
+/* END OF MAIN SECTION !!!!!!!!!!!!!!!!!! */
+
+/* COLORED SECTION START */
+.nabor{
+  position: absolute;
+  font-family: 'Averia Gruesa Libre', sans-serif;
+  font-size: 70px;
+  top: 100px;
+  padding-left: 80px;
+  font-weight: bolder;
+  color: #fff;
+  animation: blink 3s infinite;
+}
+
+.subscr{
+  position: relative;
+  padding: 50px;
+  font-family: 'Averia Gruesa Libre', sans-serif;
+  font-size: 40px;
+  top: 190px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.sub{
+
+}
+.cena {
+  margin-left: 20px;
+  font-size: 70px;
+  animation: blinkingText 3s infinite;
+}
 /* =========================== */
 @media only screen and (max-width: 1000px) {
   #whiteSection {
@@ -192,6 +225,14 @@
     width: 100%;
   }
 
+  .nabor {
+    padding-left: 0;
+    position: absolute;
+  }
+
+  .subscr {
+    top: 320px;
+  }
   .logo {
     left: 0;
     top: 150px;
@@ -238,7 +279,7 @@
   .mySlides {
     left: 0;
     position: relative;
-    top: 50px;
+    top: 57px;
     width: 90%;
     margin: 0 auto;
   }
@@ -307,4 +348,22 @@
   100% {
     top: 80px;
   }
+}
+
+@keyframes blink {
+  0% {
+    font-size: 70px;
+  }
+  50% {
+    font-size: 80px;
+  }
+  100% {
+    font-size: 70px;
+  }
+}
+
+@keyframes blinkingText{
+0%{	color: transparent;	}
+50%{	color: #fff;	}
+100%{	color: transparent;	}
 }
