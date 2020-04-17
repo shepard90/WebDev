@@ -48,8 +48,6 @@
   position: relative;
   font-size: 25px;
   width: 100%;
-
-
 }
 
 .panel li a {
@@ -74,7 +72,6 @@
   background: -ms-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
   background: linear-gradient(to right, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece036', endColorstr='#fea516', GradientType=1 );
-
 }
 
 /*-------------------------*/
