@@ -193,6 +193,22 @@
   animation: blink 3s infinite;
 }
 
+.banner{
+  position: relative;
+  top: 120px;
+  left: 120px;
+  width: 580px;
+}
+
+.invite{
+  position: absolute;
+  font-family: 'Averia Gruesa Libre', sans-serif;
+  top: 410px;
+  left: 249px;
+  color: #FBB116;
+  text-shadow: 2px 2px 2px black;
+  font-size: 55px;
+}
 .subscr{
   position: relative;
   margin: 50px;
@@ -203,7 +219,7 @@
   font-weight: bolder;
   color: #fff;
   line-height: 2em;
-  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
 }
 
 .recr{
@@ -223,19 +239,34 @@
   }
 
   #coloredSection {
-    height: 950px;
+    height: 980px;
     background-color: #FBB116;
     width: 100%;
   }
 
+  .cena{
+    margin: 0;
+    font-size: 60px;
+  }
+  .banner{
+    display: none;
+  }
+
+  .invite{
+    display: none;
+  }
   .nabor {
+    top: 50px;
     padding-left: 0;
     position: absolute;
+    animation: blinkMobile 3s infinite;
   }
 
   .subscr {
-    top: 320px;
+    top: 170px;
+    border: none;
   }
+
   .logo {
     left: 0;
     top: 150px;
@@ -365,6 +396,17 @@
   }
 }
 
+@keyframes blinkMobile {
+  0% {
+    font-size: 50px;
+  }
+  50% {
+    font-size: 60px;
+  }
+  100% {
+    font-size: 50px;
+  }
+}
 @keyframes blinkingText{
 0%{	color: transparent;	}
 50%{	color: #fff;	}
