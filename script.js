@@ -4,25 +4,24 @@ $(document).ready(function() {
   $(".clickme").click(function() {
 
 		$(".panel").toggle(300);
-  /*  if ($(window).width() > 650) {
-      $(".menuText").toggle("invisible");
-    }; */
   });
 
   //zanikanie menu
+
 	$(".panel").mouseleave(function() {
 		$(".panel").toggle(300);
 		$(".clickme").removeClass("change");
-	/*	$(".menuText").toggle(300); */
+
 	});
 
-// zanikanie menu po przesnięciu
- $(".panel").bind('swiperight', swiper);
+};
 
- function swiper(event) {
-   $(this).hide();
- };
- 
+$(document).on('pageinit', function() {
+  $(".panel").on("swiperight", function(e){
+    $(this).hide();
+  });
+});
+
   // Animacja i znikanie strzałki
     $(window).scroll(function() {
 			if($(window).width() >950){
