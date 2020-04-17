@@ -14,11 +14,8 @@ $(document).ready(function() {
 
 	});
 
-  $(document).on('pageinit', function(){
-  $('.panel').on('swiperight', function (e) {
-         $('.panel').toggle(300);
-       });
-      });
+
+
 
 
   // Animacja i znikanie strzałki
@@ -56,7 +53,14 @@ $(document).ready(function() {
       }
 });
 
+
 /* kod do animowanej ikony menu*/
 function myFunction(x) {
 	x.classList.toggle("change");
 }
+
+$(document).on('pageinit', function(){
+$('.panel').on('swiperight', function (e) {
+       $('.panel').toggle(300);
+     });
+    });
