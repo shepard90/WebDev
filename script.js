@@ -14,13 +14,12 @@ $(document).ready(function() {
 
 	});
 
-};
+  $(document).on('pageinit', function(){
+  $('.panel').on('swiperight', function (e) {
+         $('.panel').toggle(300);
+       });
+      });
 
-$(document).on('pageinit', function() {
-  $(".panel").on("swiperight", function(e){
-    $(this).hide();
-  });
-});
 
   // Animacja i znikanie strzałki
     $(window).scroll(function() {
@@ -39,6 +38,7 @@ $(document).on('pageinit', function() {
           $(".ramkaMenu").fadeOut(1000);
         }
       });
+
       /* MainSection carousel */
       var myIndex = 0;
       carousel();
