@@ -230,6 +230,62 @@
   animation: blinkingText 3s infinite;
 }
 /* =========================== */
+
+/* whiteSection2 Start ========================= */
+
+#whiteSection2{
+  height: 1200px;
+}
+.container{
+  text-align: center;
+  top: 60px;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #FBB116;
+  font-family: 'Averia Gruesa Libre', sans-serif;
+}
+
+.cardsContainer{
+
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.card{
+  width: 350px;
+  height: 300px;
+  padding: 30px 30px;
+  text-align: center;
+  border: none;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.card-title{
+  height: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #FBB116;
+  font-family: 'Averia Gruesa Libre', sans-serif;
+}
+
+.card-img-top{
+  width: 60px;
+}
+
+.container2{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.czesne{
+  font-family: 'Averia Gruesa Libre', sans-serif;
+  color: #FBB116;
+  font-size: 60px;
+}
+
 @media only screen and (max-width: 992px) {
   .whiteSection {
     height: 950px;
