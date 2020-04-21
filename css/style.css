@@ -264,6 +264,7 @@
 }
 
 .card-title {
+  margin: 0;
   height: 40px;
   font-size: 20px;
   font-weight: bolder;
@@ -274,12 +275,16 @@
 .card-img-top {
   width: 60px;
 }
-
+.card-body {
+  margin: 0;
+}
 .container2 {
   text-align: center;
   margin-top: 70px;
 }
-
+.card-text{
+  margin: 0;
+}
 .czesne {
   font-family: 'Averia Gruesa Libre', sans-serif;
   color: #FBB116;
@@ -367,12 +372,15 @@
     background-color: #fff;
     width: 100%;
   }
-
+  .galeria {
+    width: 100%;
+  }
   .card{
     padding: 0;
+    width: 100%;
   }
   #coloredSection2 {
-    height: 1400px;
+    height: 1500px;
   }
 
   .galleryContainer {
@@ -403,12 +411,14 @@
   }
 
   .fblink {
-    width: 70%;
+    width: 100%;
     top: 20px;
     left: 0;
-    margin: 0 auto;
   }
-
+  .fblogo{
+    width: 200px;
+    left: 150px;
+  }
   .divider {
     display: none;
   }
