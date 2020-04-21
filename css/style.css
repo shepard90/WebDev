@@ -65,15 +65,14 @@
 .panel li a:hover {
   text-decoration: underline;
   width: 100%;
-
-  background: rgba(236,224,54,1);
-  background: -moz-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(236,224,54,1)), color-stop(100%, rgba(254,165,22,1)));
-  background: -webkit-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
-  background: -o-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
-  background: -ms-linear-gradient(left, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
-  background: linear-gradient(to right, rgba(236,224,54,1) 0%, rgba(254,165,22,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece036', endColorstr='#fea516', GradientType=1 );
+  background: rgba(236, 224, 54, 1);
+  background: -moz-linear-gradient(left, rgba(236, 224, 54, 1) 0%, rgba(254, 165, 22, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(236, 224, 54, 1)), color-stop(100%, rgba(254, 165, 22, 1)));
+  background: -webkit-linear-gradient(left, rgba(236, 224, 54, 1) 0%, rgba(254, 165, 22, 1) 100%);
+  background: -o-linear-gradient(left, rgba(236, 224, 54, 1) 0%, rgba(254, 165, 22, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(236, 224, 54, 1) 0%, rgba(254, 165, 22, 1) 100%);
+  background: linear-gradient(to right, rgba(236, 224, 54, 1) 0%, rgba(254, 165, 22, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ece036', endColorstr='#fea516', GradientType=1);
 }
 
 /*-------------------------*/
@@ -180,11 +179,9 @@
   animation: moveArrow 2s infinite;
 }
 
-
 /* END OF MAIN SECTION !!!!!!!!!!!!!!!!!! */
-
 /* COLORED SECTION START */
-.nabor{
+.nabor {
   position: absolute;
   font-family: 'Averia Gruesa Libre', sans-serif;
   font-size: 70px;
@@ -195,14 +192,14 @@
   animation: blink 3s infinite;
 }
 
-.banner{
+.banner {
   position: relative;
   top: 120px;
   left: 120px;
   width: 580px;
 }
 
-.invite{
+.invite {
   position: absolute;
   font-family: 'Averia Gruesa Libre', sans-serif;
   top: 410px;
@@ -211,7 +208,8 @@
   text-shadow: 2px 2px 2px black;
   font-size: 55px;
 }
-.subscr{
+
+.subscr {
   position: relative;
   font-family: 'Averia Gruesa Libre', sans-serif;
   font-size: 40px;
@@ -223,22 +221,23 @@
   border-left: 3px solid #fff;
 }
 
-.recr{
+.recr {
   font-size: 60px;
 }
+
 .cena {
   margin-left: 50px;
   font-size: 70px;
   animation: blinkingText 3s infinite;
 }
+
 /* =========================== */
-
 /* whiteSection2 Start ========================= */
-
-#whiteSection2{
+#whiteSection2 {
   height: 1100px;
 }
-.container{
+
+.container {
   text-align: center;
   top: 60px;
   font-size: 60px;
@@ -247,14 +246,14 @@
   font-family: 'Averia Gruesa Libre', sans-serif;
 }
 
-.cardsContainer{
+.cardsContainer {
   align-items: center;
   text-align: center;
   margin: 0 auto;
   margin-top: 150px;
 }
 
-.card{
+.card {
   width: 350px;
   height: 300px;
   padding: 30px 30px;
@@ -264,7 +263,7 @@
   align-items: center;
 }
 
-.card-title{
+.card-title {
   height: 40px;
   font-size: 20px;
   font-weight: bolder;
@@ -272,23 +271,23 @@
   font-family: 'Averia Gruesa Libre', sans-serif;
 }
 
-.card-img-top{
+.card-img-top {
   width: 60px;
 }
 
-.container2{
+.container2 {
   text-align: center;
   margin-top: 70px;
 }
 
-.czesne{
+.czesne {
   font-family: 'Averia Gruesa Libre', sans-serif;
   color: #FBB116;
   font-size: 60px;
 }
 
-/* whiteSection2 START ================= */
-#coloredSection2{
+/* coloredSection2 START ================= */
+#coloredSection2 {
   height: 1200px;
 }
 
@@ -303,39 +302,42 @@
   position: relative;
 }
 
-.control:hover{
+.control:hover {
   background-color: #000;
 }
 
-.galleryContainer{
+.galleryContainer {
   position: relative;
   width: 100%;
   height: 780px;
   top: 80px;
   margin: 0 auto;
-/*  box-shadow: 0px 0px 35px 15px rgba(255,255,255,0.96);
+  /*  box-shadow: 0px 0px 35px 15px rgba(255,255,255,0.96);
   border-radius: 30px; */
 }
 
-.carousel-item img{
-/*  height: 550px;
+.carousel-item img {
+  /*  height: 550px;
   border-radius: 300px; */
 }
-.carousel-inner{
+
+.carousel-inner {
   padding: 0;
 }
-.divider{
+
+.divider {
   width: 700px;
   right: 0;
   position: absolute;
 }
-.divider2{
+
+.divider2 {
   width: 500px;
   left: 0;
   position: absolute;
 }
 
-.galleryDesc{
+.galleryDesc {
   position: relative;
   font-family: 'Averia Gruesa Libre', sans-serif;
   color: #fff;
@@ -344,14 +346,17 @@
   margin-left: 60px;
   height: 200px;
 }
-.inviter{
+
+.inviter {
   left: 80px;
 }
-.fblink{
+
+.fblink {
   left: 90px;
   width: 80%;
 }
-.fblogo:hover{
+
+.fblogo:hover {
   cursor: pointer;
   filter: brightness(150%);
 }
@@ -362,10 +367,15 @@
     background-color: #fff;
     width: 100%;
   }
-  #coloredSection2{
+
+  .card{
+    padding: 0;
+  }
+  #coloredSection2 {
     height: 1400px;
   }
-  .galleryContainer{
+
+  .galleryContainer {
     position: relative;
     width: 100%;
     height: 450px;
@@ -373,35 +383,41 @@
     box-shadow: 0 0 0 0;
     border-radius: 0;
   }
-  .carousel-item img{
+
+  .carousel-item img {
     width: 100%;
     border-radius: 0;
   }
-  .carousel-inner{
+
+  .carousel-inner {
     padding: 0;
   }
-  .inviter{
+
+  .inviter {
     left: 0;
     text-align: center;
   }
-  .galleryDesc{
+
+  .galleryDesc {
     margin-left: 0;
   }
-  .fblink{
+
+  .fblink {
     width: 70%;
     top: 20px;
     left: 0;
     margin: 0 auto;
   }
 
-  .divider{
-    display: none;
-  }
-  .divider2{
+  .divider {
     display: none;
   }
 
-  #whiteSection2{
+  .divider2 {
+    display: none;
+  }
+
+  #whiteSection2 {
     height: 3300px;
   }
 
@@ -411,18 +427,20 @@
     width: 100%;
   }
 
-  .container{
+  .container {
     font-size: 40px;
   }
-  .cena{
+
+  .cena {
     margin: 0;
     font-size: 60px;
   }
-  .banner{
+
+  .banner {
     display: none;
   }
 
-  .invite{
+  .invite {
     display: none;
   }
 
@@ -504,7 +522,6 @@
   }
 }
 
-
 @keyframes pop-up {
   0% {
     transform: filter blur(5px);
@@ -569,9 +586,11 @@
   0% {
     font-size: 60px;
   }
+
   50% {
     font-size: 63px;
   }
+
   100% {
     font-size: 60px;
   }
@@ -581,15 +600,26 @@
   0% {
     font-size: 50px;
   }
+
   50% {
     font-size: 53px;
   }
+
   100% {
     font-size: 50px;
   }
 }
-@keyframes blinkingText{
-0%{	color: transparent;	}
-50%{	color: #fff;	}
-100%{	color: transparent;	}
+
+@keyframes blinkingText {
+  0% {
+    color: transparent;
+  }
+
+  50% {
+    color: #fff;
+  }
+
+  100% {
+    color: transparent;
+  }
 }
