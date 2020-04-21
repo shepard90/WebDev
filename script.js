@@ -93,3 +93,8 @@ $(window).scroll(function() {
   });
 
 // ///////////// Koniec przesuwania do elemtnu
+
+// Zapobieganie przesuwaniu strony w karuzeli ===========
+
+
+// ==========================================

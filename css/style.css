@@ -352,7 +352,7 @@
     border-radius: 0;
   }
 .divider{
-  display: none;
+  width: 100%;
 }
 .divider2{
   display: none;
