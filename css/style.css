@@ -402,6 +402,7 @@
   }
   .galeria {
     width: 100%;
+    font-size: 45px;
   }
   .additional h3{
     margin-top: 50px;
@@ -465,7 +466,7 @@
   }
 
   #whiteSection2 {
-    height: 3100px;
+    height: 3300px;
   }
 
   .coloredSection {
