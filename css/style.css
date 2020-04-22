@@ -6,7 +6,7 @@
 }
 
 .coloredSection {
-  height: 700px;
+  height: auto;
   background-color: #FBB116;
   z-index: 100;
   margin: 0;
@@ -203,10 +203,10 @@
 }
 
 .invite {
-  position: absolute;
+  position: relative;
   font-family: 'McLaren', sans-serif;
-  top: 410px;
-  left: 249px;
+  top: 0;
+  left: 230px;
   color: #FBB116;
   text-shadow: 2px 2px 2px black;
   font-size: 50px;
@@ -221,8 +221,11 @@
   line-height: 2em;
   border-left: 3px solid #fff;
   font-family: 'McLaren', sans-serif;
-}
 
+}
+.sub{
+  padding-bottom: 140px;
+}
 .recr {
   font-size: 60px;
 }
@@ -282,9 +285,8 @@
 
 .container2 {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 30px;
 }
-
 .czesne {
   font-family: 'McLaren', sans-serif;
   color: #FBB116;
@@ -345,16 +347,19 @@
 }
 
 .galleryDesc {
-  position: relative;
+  position: static;
   font-family: 'Averia Gruesa Libre', sans-serif;
   color: #fff;
   font-size: 50px;
   text-align: left;
+
   margin-left: 60px;
   height: 200px;
 }
 
 .inviter {
+  display: block;
+  position: relative;
   top: 30px;
   left: 80px;
 }
@@ -384,9 +389,13 @@
   margin: 0 auto;
   display: block;
 }
+.carousel-item img{
+  position: relative;
+  margin-bottom: 10px;
+}
 @media only screen and (max-width: 992px) {
   .whiteSection {
-    height: 950px;
+
     background-color: #fff;
     width: 100%;
   }
@@ -399,6 +408,11 @@
   }
   .recr{
     font-size: 40px;
+
+  }
+  .row{
+    margin: 0;
+    position: relative;
   }
   .galeria {
     width: 100%;
@@ -427,18 +441,23 @@
   .carousel-item img {
     width: 100%;
     border-radius: 0;
+    display: block;
   }
 
   .carousel-inner {
     padding: 0;
+
   }
 
   .inviter {
+    margin-top: 30px;
+    position: relative;
     left: 0;
     text-align: center;
   }
 
   .galleryDesc {
+
     padding-top: 20px;
     margin-left: 0;
     font-size: 35px;
@@ -468,7 +487,7 @@
   }
 
   .coloredSection {
-    height: 900px;
+    height: auto;
     background-color: #FBB116;
     width: 100%;
   }
@@ -493,21 +512,22 @@
   .nabor {
     border-bottom: 1px solid #fff;
     width: 70%;
+    display: block;
     padding-left: 0;
+    animation: none;
     margin: 0 13%;
-    animation: blinkMobile 3s infinite;
+    font-size: 60px;
     font-family: 'Averia Gruesa Libre', sans-serif;
-  }
+    position: relative;
 
-  .row {
-    margin: 0;
   }
-
   .subscr {
-    top: 250px;
+    padding-left: 0;
+    top: 70px;
     border: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    position: relative;
+
   }
 
   .logo {
