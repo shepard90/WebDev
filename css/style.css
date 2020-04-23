@@ -585,7 +585,7 @@
     display: block;
     height: 400px;
     position: relative;
-    padding-bottom: 70px;
+    margin-bottom: 70px;
   } 
   body {
     margin: 0;
