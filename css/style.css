@@ -512,10 +512,9 @@
     text-align: center;
     border-bottom: 1px solid #fff;
     width: 100%
-    display: block;
     animation: none;
-    margin: 0 13%;
-    font-size: 60px;
+    padding: 10px;
+    font-size: 55px;
     font-family: 'Averia Gruesa Libre', sans-serif;
     position: relative;
 
