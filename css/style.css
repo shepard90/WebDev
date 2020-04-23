@@ -151,6 +151,7 @@
 .mainSection {
   position: relative;
   top: 120px;
+
 }
 
 .intro {
@@ -239,9 +240,6 @@
 
 /* =========================== */
 /* whiteSection2 Start ========================= */
-#whiteSection2 {
-  height: 1150px;
-}
 
 .container {
   text-align: center;
@@ -308,7 +306,6 @@
 /* coloredSection2 START ================= */
 #coloredSection2 {
   background-color: #FBB116;
-  height: 1250px;
 }
 
 .galeria {
@@ -350,13 +347,13 @@
 }
 
 .galleryDesc {
-  position: static;
+  position: relative;
   font-family: 'Averia Gruesa Libre', sans-serif;
   color: #fff;
   font-size: 50px;
   text-align: left;
   margin-left: 60px;
-  height: 200px;
+
 }
 
 .inviter {
@@ -402,7 +399,7 @@
   .whiteSection {
     background-color: #fff;
     width: 100%;
-    overflow: auto;
+    height: 900px;
   }
 
   .opis {
@@ -420,6 +417,7 @@
   .row {
     margin: 0;
     position: relative;
+
   }
 
   .galeria {
@@ -437,9 +435,7 @@
     width: 100%;
   }
 
-  #coloredSection2 {
-    height: 1050px;
-  }
+
 
   .galleryContainer {
     position: relative;
@@ -466,6 +462,7 @@
   }
 
   .galleryDesc {
+    display: block;
     padding-top: 20px;
     margin-left: 0;
     font-size: 35px;
@@ -483,6 +480,8 @@
 
   .fblogo {
     width: 200px;
+    display: block;
+    margin: 0 auto;
   }
 
   .divider {
@@ -589,6 +588,7 @@
     top: 57px;
     width: 300px;
     margin: 0 auto;
+
   }
 
   body {
