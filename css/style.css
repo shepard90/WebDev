@@ -577,11 +577,13 @@
     left: 0;
     position: relative;
     top: 57px;
-    height: 400px;
+    
     width: 300px;
     margin: 0 auto;
   }
-
+  .slides {
+    height: 400px;
+  } 
   body {
     margin: 0;
     text-align: center;
