@@ -581,7 +581,7 @@
     width: 300px;
     margin: 0 auto;
   }
-  .slides {
+  .slides img {
     display: block;
     height: 400px;
     position: relative;
