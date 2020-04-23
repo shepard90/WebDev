@@ -575,17 +575,12 @@
 
   .mySlides {
     left: 0;
-    
     top: 57px;
-    height: 300px;
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
   }
   .slides img {
     display: block;
- 
-    position: relative;
-    padding-bottom: 70px;
   } 
   body {
     margin: 0;
