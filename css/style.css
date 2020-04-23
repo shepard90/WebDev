@@ -575,15 +575,15 @@
 
   .mySlides {
     left: 0;
-    position: relative;
-    top: 57px;
     
+    top: 57px;
+    height: 300px;
     width: 300px;
     margin: 0 auto;
   }
   .slides img {
     display: block;
-    height: 200px;
+ 
     position: relative;
     padding-bottom: 70px;
   } 
