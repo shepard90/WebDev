@@ -583,6 +583,7 @@
   }
   .slides {
     height: 400px;
+    position: relative;
   } 
   body {
     margin: 0;
