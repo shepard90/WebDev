@@ -509,10 +509,11 @@
   }
 
   .nabor {
+    text-align: center;
     border-bottom: 1px solid #fff;
     width: 70%;
     display: block;
-    padding-left: 0;
+    padding: 0;
     animation: none;
     margin: 0 13%;
     font-size: 60px;
