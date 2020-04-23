@@ -2,7 +2,6 @@
   height: 800px;
   background-color: #fff;
   margin: 0;
-
 }
 
 .coloredSection {
@@ -10,11 +9,12 @@
   background-color: #FBB116;
   z-index: 100;
   margin: 0;
-
 }
-*{
+
+* {
   font-family: 'McLaren';
 }
+
 /* Panel Menu ========================*/
 .ramkaMenu {
   display: none;
@@ -221,11 +221,12 @@
   line-height: 2em;
   border-left: 3px solid #fff;
   font-family: 'McLaren', sans-serif;
-
 }
-.sub{
+
+.sub {
   padding-bottom: 140px;
 }
+
 .recr {
   font-size: 60px;
 }
@@ -250,7 +251,6 @@
   color: #FBB116;
 }
 
-
 .cardsContainer {
   align-items: center;
   text-align: center;
@@ -266,7 +266,6 @@
   border: none;
   margin: 0 auto;
   align-items: center;
-
 }
 
 .card-title {
@@ -276,9 +275,11 @@
   color: #FBB116;
   font-family: 'McLaren', sans-serif;
 }
-.card-text{
+
+.card-text {
   font-family: Verdana, sans-serif;
 }
+
 .card-img-top {
   width: 60px;
 }
@@ -287,6 +288,7 @@
   text-align: center;
   margin-top: 30px;
 }
+
 .czesne {
   font-family: 'McLaren', sans-serif;
   color: #FBB116;
@@ -298,9 +300,11 @@
   margin-top: 50px;
   text-align: center;
 }
-.additional h2, .additional h3{
+
+.additional h2, .additional h3 {
   font-family: 'McLaren', sans-serif;
 }
+
 /* coloredSection2 START ================= */
 #coloredSection2 {
   background-color: #FBB116;
@@ -308,7 +312,6 @@
 }
 
 .galeria {
-
   color: #fff;
   width: 490px;
   padding-top: 40px;
@@ -352,7 +355,6 @@
   color: #fff;
   font-size: 50px;
   text-align: left;
-
   margin-left: 60px;
   height: 200px;
 }
@@ -367,69 +369,77 @@
 .fblink {
   top: 30px;
   left: 90px;
-
 }
-.fblogo{
+
+.fblogo {
   width: 300px;
 }
+
 .fblogo:hover {
   cursor: pointer;
   filter: brightness(150%);
 }
 
 /* onas section start ==================== */
-
-.opis{
+.opis {
   margin: 90px 150px 50px 150px;
   width: 80%;
   text-align: center;
   font-size: 20px;
 }
-.euro{
+
+.euro {
   margin: 0 auto;
   display: block;
 }
-.carousel-item img{
+
+.carousel-item img {
   position: relative;
   margin-bottom: 10px;
 }
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width: 576px) {
   .whiteSection {
-    height: 850px;
     background-color: #fff;
     width: 100%;
+    overflow: auto;
   }
-  .opis{
+
+  .opis {
     margin: 0;
     padding: 20px;
     width: 100%;
     text-align: center;
     font-size: 15px;
   }
-  .recr{
-    font-size: 40px;
 
+  .recr {
+    font-size: 40px;
   }
-  .row{
+
+  .row {
     margin: 0;
     position: relative;
   }
+
   .galeria {
     width: 100%;
     font-size: 45px;
   }
-  .additional h3{
+
+  .additional h3 {
     margin-top: 50px;
   }
-  .card{
+
+  .card {
     padding: 0;
     height: 270px;
     width: 100%;
   }
+
   #coloredSection2 {
     height: 1050px;
   }
-
 
   .galleryContainer {
     position: relative;
@@ -446,7 +456,6 @@
 
   .carousel-inner {
     padding: 0;
-
   }
 
   .inviter {
@@ -457,23 +466,25 @@
   }
 
   .galleryDesc {
-
     padding-top: 20px;
     margin-left: 0;
     font-size: 35px;
   }
-  .euro{
+
+  .euro {
     width: 100%;
   }
-  .fblink{
+
+  .fblink {
     left: 0;
     text-align: center;
     top: 30px;
   }
-  .fblogo{
-    width: 200px;
 
+  .fblogo {
+    width: 200px;
   }
+
   .divider {
     display: none;
   }
@@ -487,6 +498,7 @@
   }
 
   .coloredSection {
+    height: auto;
     background-color: #FBB116;
     width: 100%;
   }
@@ -509,23 +521,23 @@
   }
 
   .nabor {
-    text-align: center;
     border-bottom: 1px solid #fff;
-    width: 100%
+    width: 100%;
+    display: block;
+    padding: 0;
     animation: none;
-    padding: 10px;
-    font-size: 55px;
+    margin: 0 auto;
+    font-size: 60px;
     font-family: 'Averia Gruesa Libre', sans-serif;
     position: relative;
-
   }
+
   .subscr {
     padding-left: 0;
     top: 70px;
     border: none;
     margin: 0 auto;
     position: relative;
-
   }
 
   .logo {
@@ -573,13 +585,12 @@
 
   .mySlides {
     left: 0;
+    position: relative;
     top: 57px;
-    width: 100%;
+    width: 300px;
     margin: 0 auto;
   }
-  .slides img {
-    display: block;
-  } 
+
   body {
     margin: 0;
     text-align: center;
