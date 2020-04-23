@@ -582,6 +582,7 @@
     margin: 0 auto;
   }
   .slides {
+    display: block;
     height: 400px;
     position: relative;
   } 
