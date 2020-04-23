@@ -1,14 +1,12 @@
 $(document).ready(function() {
 
-	// Wysuwany panel menu
+// Wysuwany panel menu
   $(".clickme").click(function() {
 
 		$(".panel").show(300);
   });
-  // /////////////////////////////////
 
-  // ////////////////// zanikanie menu
-
+//  zanikanie menu
 	$(".panel").mouseleave(function() {
 		$(".panel").hide(300);
 		$(".clickme").removeClass("change");
@@ -24,9 +22,9 @@ $(document).ready(function() {
       $(".panel").hide(300);
   		$(".clickme").removeClass("change");
     });
-// ///////////////// Koniec zanikania menu
+//  Koniec zanikania menu
 
-      /* MainSection carousel */
+/* MainSection carousel */
       var myIndex = 0;
       carousel();
 
@@ -41,16 +39,15 @@ $(document).ready(function() {
         x[myIndex-1].style.display = "block";
         setTimeout(carousel, 9000);
       }
-});
+    });
 
 
-/* kod do animowanej ikony menu*/
-function myFunction(x) {
-	x.classList.toggle("change");
-}
+/* animatedHamburgerIcon */
+    function myFunction(x) {
+    	x.classList.toggle("change");
+    }
 
-// /////////////////przesuwanie do elemtnu ======================
-
+// scrollToTarget
     function scroll(e) {
 
     var href = $(this).attr('href');
@@ -63,19 +60,18 @@ function myFunction(x) {
 
     location.hash = href;
 
-};
+    };
 
-$('a[href^="#"]').click(scroll);
+    $('a[href^="#"]').click(scroll);
+//
+// Zapobieganie przesuwaniu strony w karuzeli ===========
+    var timeout;
 
+    $(window).scroll(function() {
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
 
-
-var timeout;
-
-$(window).scroll(function() {
-  clearTimeout(timeout);
-  timeout = setTimeout(function() {
-
-// Zanikanie strzłki ================
+// Zanikanie strzłki
   if($(window).width() >950){
     if ($(this).scrollTop() < 300) {
       $(".arrow").fadeIn(500);
@@ -83,7 +79,7 @@ $(window).scroll(function() {
       $(".arrow").fadeOut(500);
     }};
 
-// Zanikanie ramki menu ===============
+// Zanikanie ramki menu
     if ($(window).scrollTop() < 50) {
       $(".ramkaMenu").hide(500);
     } else {
@@ -91,10 +87,3 @@ $(window).scroll(function() {
     }
   }, 1);
   });
-
-// ///////////// Koniec przesuwania do elemtnu
-
-// Zapobieganie przesuwaniu strony w karuzeli ===========
-
-
-// ==========================================
