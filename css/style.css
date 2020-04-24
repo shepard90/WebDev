@@ -458,6 +458,9 @@ div p {
   #whiteSection1{
     height: 800px;
   }
+  .panel li a{
+    height: 50px;
+  }
   .listen{
     font-size: 20px;
   }
