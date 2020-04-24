@@ -33,7 +33,7 @@ div p {
 
 .panel {
   background: rgba(0, 0, 0, 0.8);
-  height: 100%;
+  height: 100vh;
   position: fixed;
   top: 0;
   width: 350px;
@@ -47,6 +47,7 @@ div p {
   position: relative;
   text-align: center;
   list-style: none;
+  height: 100%;
   line-height: 3rem;
   padding: 0;
   margin: 50% 0;
