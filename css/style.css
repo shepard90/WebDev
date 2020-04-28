@@ -453,10 +453,10 @@ div p {
   .whiteSection {
     background-color: #fff;
     width: 100%;
-    height: 900px;
+
   }
   #whiteSection1{
-    height: 800px;
+    height: 900px;
   }
   .panel li a{
     height: 50px;
@@ -468,6 +468,9 @@ div p {
     margin: 0;
     text-align: center;
     width: 100%;
+  }
+  .czesne {
+    font-size: 35px;
   }
   .mapka{
     min-height: 400px;

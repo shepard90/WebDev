@@ -1,0 +1,86 @@
+.zlobek{
+  width: 70%;
+  filter:opacity(50%);
+}
+.przedszkole{
+  width: 70%;
+  filter:opacity(50%);
+}
+.row{
+  padding-top: 150px;
+  text-align: center;
+  margin: 0 auto;
+}
+.body{
+
+  margin: 0;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  filter:brightness(30%);
+}
+.zlobek:hover{
+
+  opacity: 1.0;
+  filter: brightness(110%);
+  cursor: pointer;
+
+}
+.przedszkole:hover{
+
+  opacity: 1.0;
+  filter: brightness(110%);
+  cursor: pointer;
+}
+.image{
+  margin: 0 auto;
+}
+
+.image1:hover{
+  transform:scale(1.4) translateX(150px);
+  transition-duration: 2s;
+}
+.image2:hover{
+  transform:scale(1.4) translateX(-150px);
+  transition-duration: 2s;
+}
+@media only screen and (max-width: 992px){
+  .image1:hover{
+    transform:none;
+    border-width: 3px;
+    border-style: solid;
+    border-image:
+      linear-gradient(
+        to top,
+        #FBB116,
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+
+  .image2:hover{
+    transform:none;
+    border-width: 3px;
+    border-style: solid;
+    border-image:
+      linear-gradient(
+        to top,
+        #FBB116,
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+  .zlobek{
+    width: 100%;
+    filter: none;
+  }
+  .przedszkole{
+    width: 100%;
+    filter: none;
+  }
+  .row{padding-top: 0;}
+  #myVideo{display: none;}
+}
