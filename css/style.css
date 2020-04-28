@@ -373,6 +373,7 @@ div p {
 }
 
 .fblink {
+  position: relative;
   top: 30px;
   left: 90px;
 }
@@ -536,6 +537,7 @@ div p {
     padding-top: 20px;
     margin-left: 0;
     font-size: 35px;
+    text-align: center;
   }
 
   .euro {
@@ -543,9 +545,12 @@ div p {
   }
 
   .fblink {
+
     left: 0;
-    text-align: center;
+    width: 100%;
+
     top: 30px;
+
   }
 
   .fblogo {
