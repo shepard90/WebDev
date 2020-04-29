@@ -56,9 +56,7 @@ $(document).ready(function() {
 
     $('html, body').animate({
         scrollTop: $(href).offset().top
-    }, 500);
-
-    location.hash = href;
+    }, 2000);
 
     };
 
