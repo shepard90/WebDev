@@ -199,15 +199,15 @@ div p {
 
 .banner {
   position: relative;
-  top: 120px;
-  left: 120px;
+  top: 80px;
+  left: 80px;
   width: 580px;
 }
 
 .invite {
-  position: relative;
-  top: 0;
-  left: 230px;
+  position: absolute;
+  top: 380px;
+  left: 200px;
   color: #3BB3C3;
   text-shadow: 2px 2px 2px black;
   font-size: 50px;
@@ -215,7 +215,7 @@ div p {
 
 .subscr {
   position: relative;
-  top: 120px;
+  top: 65px;
   padding-left: 30px;
   font-weight: bolder;
   color: #fff;
@@ -362,14 +362,13 @@ div p {
 }
 
 .inviter {
-  display: block;
-  position: relative;
-  top: 30px;
+
+  top: 50px;
   left: 80px;
 }
 
 .fblink {
-  top: 0px;
+  top: 20px;
   left: 90px;
 }
 
