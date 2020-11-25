@@ -485,17 +485,16 @@ div p {
   }
 
   .inviter {
-    margin-top: 30px;
+    top: 0;
     position: relative;
     left: 0;
     text-align: center;
   }
 
   .galleryDesc {
-    padding-top: 20px;
+    padding-top: 40px;
     margin-left: 0;
     font-size: 35px;
-    text-align: center;
   }
 
   .euro {
@@ -503,12 +502,9 @@ div p {
   }
 
   .fblink {
-
     left: 0;
-    width: 100%;
-
+    text-align: center;
     top: 30px;
-
   }
 
   .fblogo {
@@ -558,6 +554,7 @@ div p {
     display: block;
     padding: 0;
     animation: none;
+    left: 0;
     margin: 0 auto;
     font-size: 60px;
     font-family: 'Averia Gruesa Libre', sans-serif;
