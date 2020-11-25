@@ -551,6 +551,7 @@ div p {
     display: block;
     padding: 0;
     animation: none;
+    left: 0;
     margin: 0 auto;
     font-size: 60px;
     font-family: 'Averia Gruesa Libre', sans-serif;
