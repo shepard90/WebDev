@@ -2,12 +2,12 @@ body{
   background-color: #000;
 }
 .zlobek{
-  width: 70%;
-  filter:opacity(50%);
+  width: 80%;
+  filter:opacity(70%);
 }
 .przedszkole{
-  width: 70%;
-  filter:opacity(50%);
+  width: 80%;
+  filter:opacity(70%);
 }
 .row{
   padding-top: 150px;
@@ -45,12 +45,14 @@ body{
 }
 
 .image1:hover{
-  transform:scale(1.4) translateX(150px);
-  transition-duration: 2s;
+  transform:scale(1.8) translateX(150px) translateY(50px);
+  transition-duration: 1s;
+  z-index: 999;
 }
 .image2:hover{
-  transform:scale(1.4) translateX(-150px);
-  transition-duration: 2s;
+  transform:scale(1.8) translateX(-150px) translateY(50px);
+  transition-duration: 1s;
+  z-index: 999;
 }
 @media only screen and (max-width: 992px){
   .image1:hover{

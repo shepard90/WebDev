@@ -20,11 +20,11 @@ div p {
 /* Panel Menu ========================*/
 .ramkaMenu {
   display: none;
-  height: 55px;
-  width: 370px;
-  border-radius: 5px;
+  height: 75px;
+  width: 400px;
+  border-radius: 1px;
   position: fixed;
-  top: 75px;
+  top: 62px;
   right: 0;
   background-color: #000;
   opacity: 0.5;
@@ -185,7 +185,7 @@ div p {
 .arrow {
   position: absolute;
   left: 90px;
-  bottom: 125px;
+  margin-bottom: 125px;
   width: 80px;
   animation: moveArrow 2s infinite;
 }
@@ -196,31 +196,31 @@ div p {
   position: absolute;
   font-family: 'McLaren', sans-serif;
   top: 60px;
-  padding-left: 60px;
+  left: 170px;
+  font-size: 63px;
   font-weight: bolder;
   color: #fff;
-  animation: blink 3s infinite;
 }
 
 .banner {
   position: relative;
-  top: 120px;
-  left: 120px;
+  top: 80px;
+  left: 160px;
   width: 580px;
 }
 
 .invite {
-  position: relative;
-  top: 0;
-  left: 230px;
-  color: #FBB116;
+  position: absolute;
+  top: 380px;
+  left: 280px;
+  color: #3BB3C3;
   text-shadow: 2px 2px 2px black;
   font-size: 50px;
 }
 
 .subscr {
   position: relative;
-  top: 120px;
+  top: 65px;
   padding-left: 30px;
   font-weight: bolder;
   color: #fff;
@@ -288,7 +288,7 @@ div p {
 
 .container2 {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .czesne {
@@ -317,44 +317,6 @@ div p {
   font-family: 'McLaren', sans-serif;
 }
 
-.galeria {
-  font-family: 'McLaren';
-  color: #fff;
-  width: 490px;
-  padding-top: 40px;
-  height: 60px;
-  margin: 0 auto 30px auto;
-  font-size: 60px;
-  position: relative;
-}
-
-.control:hover {
-  background-color: #000;
-}
-
-.galleryContainer {
-  position: relative;
-  width: 100%;
-  top: 80px;
-  margin: 0 auto;
-}
-
-.carousel-inner {
-  padding: 0;
-}
-
-.divider {
-  width: 700px;
-  right: 0;
-  position: absolute;
-}
-
-.divider2 {
-  width: 500px;
-  left: 0;
-  position: absolute;
-}
-
 .galleryDesc {
   position: relative;
   font-family: 'Averia Gruesa Libre', sans-serif;
@@ -362,19 +324,16 @@ div p {
   font-size: 50px;
   text-align: left;
   margin-left: 60px;
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 .inviter {
-  display: block;
-  position: relative;
-  top: 30px;
+  top: 50px;
   left: 80px;
 }
 
 .fblink {
-  position: relative;
-  top: 30px;
+  top: 20px;
   left: 90px;
 }
 
@@ -388,17 +347,14 @@ div p {
   filter: brightness(150%);
 }
 
-.carousel-item img {
-  position: relative;
-  margin-bottom: 10px;
-}
 
 /* onas section start ==================== */
 #onas{
   height: auto;
 }
 .opis {
-  margin: 50px 120px 50px 120px;
+  margin: 0 auto;
+  padding: 40px;
   width: 80%;
   text-align: center;
   font-size: 20px;
@@ -426,10 +382,9 @@ div p {
   height: auto;
 }
 .zadzwon{
-
-  margin-top: 20px;
+  font-size: 50px;
+  margin-top: 80px;
   margin-left: 30px;
-  margin-bottom: 30px;
   text-align: center;
   color: #fff;
 }

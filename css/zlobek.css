@@ -20,11 +20,11 @@ div p {
 /* Panel Menu ========================*/
 .ramkaMenu {
   display: none;
-  height: 55px;
-  width: 370px;
-  border-radius: 5px;
+  height: 75px;
+  width: 400px;
+  border-radius: 1px;
   position: fixed;
-  top: 75px;
+  top: 62px;
   right: 0;
   background-color: #000;
   opacity: 0.5;
@@ -180,7 +180,7 @@ div p {
   position: absolute;
   left: 90px;
 
-  bottom: 125px;
+  margin-bottom: 125px;
   width: 80px;
   animation: moveArrow 2s infinite;
 }
@@ -191,23 +191,23 @@ div p {
   position: absolute;
   font-family: 'McLaren', sans-serif;
   top: 60px;
-  padding-left: 60px;
+  left: 170px;
+  font-size: 63px;
   font-weight: bolder;
   color: #fff;
-  animation: blink 3s infinite;
 }
 
 .banner {
   position: relative;
   top: 80px;
-  left: 80px;
+  left: 160px;
   width: 580px;
 }
 
 .invite {
   position: absolute;
   top: 380px;
-  left: 200px;
+  left: 280px;
   color: #3BB3C3;
   text-shadow: 2px 2px 2px black;
   font-size: 50px;
@@ -240,9 +240,11 @@ div p {
 
 /* =========================== */
 /* whiteSection2 Start ========================= */
+
 .container {
   text-align: center;
-  top: 60px;
+  margin: 0 auto;
+  padding: 40px;
   font-size: 60px;
   font-weight: bolder;
   color: #3BB3C3;
@@ -252,11 +254,10 @@ div p {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  margin-top: 150px;
 }
 
 .card {
-  width: 350px;
+  width: 300px;
   height: 300px;
   padding: 30px 30px;
   text-align: center;
@@ -266,7 +267,9 @@ div p {
 }
 
 .card-title {
+
   height: 40px;
+  width: 250px;
   font-size: 20px;
   font-weight: bolder;
   color: #3BB3C3;
@@ -279,11 +282,12 @@ div p {
 
 .card-img-top {
   width: 60px;
+  height: 60px;
 }
 
 .container2 {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .czesne {
@@ -313,43 +317,6 @@ div p {
   font-family: 'McLaren', sans-serif;
 }
 
-.galeria {
-  font-family: 'McLaren';
-  color: #fff;
-  width: 490px;
-  padding-top: 40px;
-  height: 60px;
-  margin: 0 auto 30px auto;
-  font-size: 60px;
-  position: relative;
-}
-
-.control:hover {
-  background-color: #000;
-}
-
-.galleryContainer {
-  position: relative;
-  width: 100%;
-  top: 80px;
-  margin: 0 auto;
-}
-
-.carousel-inner {
-  padding: 0;
-}
-
-.divider {
-  width: 700px;
-  right: 0;
-  position: absolute;
-}
-
-.divider2 {
-  width: 500px;
-  left: 0;
-  position: absolute;
-}
 
 .galleryDesc {
   position: relative;
@@ -362,7 +329,6 @@ div p {
 }
 
 .inviter {
-
   top: 50px;
   left: 80px;
 }
@@ -382,17 +348,14 @@ div p {
   filter: brightness(150%);
 }
 
-.carousel-item img {
-  position: relative;
-  margin-bottom: 10px;
-}
 
 /* onas section start ==================== */
 #onas{
   height: auto;
 }
 .opis {
-  margin: 50px 120px 50px 120px;
+  padding: 40px;
+  margin: 0 auto;
   width: 80%;
   text-align: center;
   font-size: 20px;
@@ -419,11 +382,11 @@ div p {
 #kontakt{
   height: auto;
 }
-.zadzwon{
 
-  margin-top: 20px;
+.zadzwon{
+  font-size: 50px;
+  margin-top: 80px;
   margin-left: 30px;
-  margin-bottom: 30px;
   text-align: center;
   color: #fff;
 }
@@ -433,7 +396,6 @@ div p {
   width: 40px;
 }
 .listen{
-
   margin-top: 20px;
   font-size: 30px;
   color: #000;
@@ -720,19 +682,6 @@ div p {
   }
 }
 
-@keyframes blink {
-  0% {
-    font-size: 60px;
-  }
-
-  50% {
-    font-size: 63px;
-  }
-
-  100% {
-    font-size: 60px;
-  }
-}
 
 @keyframes blinkMobile {
   0% {
