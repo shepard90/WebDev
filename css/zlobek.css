@@ -439,7 +439,6 @@ div p {
     text-align: center;
     font-size: 15px;
     border: none;
-
   }
 
   .recr {
@@ -464,22 +463,11 @@ div p {
     padding: 0;
     height: 270px;
     width: 100%;
+    align-items: center;
   }
-
-  .galleryContainer {
-    position: relative;
+  .card-title {
     width: 100%;
-    top: 80px;
-  }
-
-  .carousel-item img {
-    width: 100%;
-    border-radius: 0;
-    display: block;
-  }
-
-  .carousel-inner {
-    padding: 0;
+    text-align: center;
   }
 
   .inviter {
@@ -580,8 +568,9 @@ div p {
   }
 
   .ramkaMenu {
-    top: 35px;
-    width: 200px;
+    top: 25px;
+    width: 220px;
+    border-radius: 3px;
     right: 0;
   }
 

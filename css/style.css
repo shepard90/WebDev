@@ -464,7 +464,10 @@ div p {
     height: 270px;
     width: 100%;
   }
-
+  .card-title {
+    width: 100%;
+    text-align: center;
+  }
   .galleryContainer {
     position: relative;
     width: 100%;
@@ -555,7 +558,6 @@ div p {
     display: block;
     padding: 0;
     animation: none;
-    left: 0;
     margin: 0 auto;
     font-size: 60px;
     font-family: 'Averia Gruesa Libre', sans-serif;
@@ -584,8 +586,9 @@ div p {
   }
 
   .ramkaMenu {
-    top: 35px;
-    width: 200px;
+    top: 25px;
+    width: 220px;
+    border-radius: 3px;
     right: 0;
   }
 
